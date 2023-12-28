@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     
-    <BrowserRouter>
+    <BrowserRouter basename="/React-DemoApp">
     <Routes>
       <Route path="" element={<Ajaxfun2 />}/>
         
